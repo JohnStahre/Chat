@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BOT chat</title>
+</head>
+<body>
+    <nav>
+        <h1>BOT</h1>
+    </nav>
+
+    <div id= "chat">
+        <div id="chat-window">
+            <div id ="output">
+                <!-- <div class="chat-box">
+                    <p class="chat-name">namn på användare</p>
+                    <p class="chat-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum non dolorem saepe nostrum perspiciatis praesentium veniam impedit asperiores delectus assumenda, neque tempora fuga, nesciunt commodi, esse nobis blanditiis nihil exercitationem.</p>
+
+                </div> -->
+                <!-- <div class="chat-box">
+                    <p class="chat-name">namn på användare</p>
+                    <p class="chat-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum non dolorem saepe nostrum perspiciatis praesentium veniam impedit asperiores delectus assumenda, neque tempora fuga, nesciunt commodi, esse nobis blanditiis nihil exercitationem.</p>
+
+                </div>
+                <div class="chat-box right">
+                    <p class="chat-name">namn på användare</p>
+                    <p class="chat-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum non dolorem saepe nostrum perspiciatis praesentium veniam impedit asperiores delectus assumenda, neque tempora fuga, nesciunt commodi, esse nobis blanditiis nihil exercitationem.</p>
+
+                </div> -->
+                <div id="feedback"></div>
+            </div>
+        </div>
+        <form id="form">
+            <input type="text" id="name" placeholder="Enter mitt namn">
+            <input type="text" id="message" placeholder="Message">
+            <button id="send">send</button>
+        </form>
+    </div>
+   
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
